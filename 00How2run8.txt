@@ -1,0 +1,12 @@
+Note:
+Since the Bayesian structural time-series models are run more than 800 times in this example, it is quite slow to generate the document. You may directly read the .html file to get the content in this example. The following steps are used to generate the .html file on your own computer.
+
+
+1. Save all files to ONE folder.
+
+2. Open the .Rmd file in Rstudio.
+
+3. Install required "CausalImpact" R package. 
+
+4. Click "Knit" or "Ctrl+Shift+K".
+
