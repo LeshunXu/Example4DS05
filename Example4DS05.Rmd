@@ -161,7 +161,7 @@ hist(impacts2$AbsEffect, breaks=breaks, col = cols, main = "Distribution of Abso
 abline(v=impacts[9,3], col = "red", lwd=2, lty=2)
 
 pp <- nrow(impacts2[which(impacts2$AbsEffect<=impacts[9,3]),])/nrow(impacts2)
-pp <- round(pp*100,2)
+pp1 <- round(pp*100,2)
 
 ```
 
@@ -202,7 +202,7 @@ pp2 <- round(pp*100,2)
 
 ```
 
-In the above figures, the red line is the Absolute Effect of the day Jul 6 in 2009. Relative to the red line, the yellow part is the tail. The proportions of the tails to all effects are  `r pp`% for the "next 5 days", and  `r pp2`%  for the "next 40 days".
+In the above figures, the red line is the Absolute Effect of the day Jul 6 in 2009. Relative to the red line, the yellow part is the tail. The proportions of the tails to all effects are  `r pp1`% for the "next 5 days", and  `r pp2`%  for the "next 40 days".
 Both effects are not far from the normal effects for each day, i.e. they belong to the effects from normal days.
 
 Therefore, based on the model in the CausalImpact package, (although we do not know the specific number,) no matter how many factors affected it, July 6 in 2009 was just a normal day for the UAL stock.
